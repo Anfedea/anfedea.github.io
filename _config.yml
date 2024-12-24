@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Antonio Ferreiro / Philosopher of Physics"
+title                    : "Antonio Ferreiro"
 title_separator          : "-"
 name                     : &name "Antonio Ferreiro"
 description              : &description "personal description"
@@ -23,8 +23,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Antonio Ferreiro"
-  pronouns         :  "he/him"  
-  bio              : "I am a physicist and philosopher of science"
+  pronouns         : # "he/him"  
+  bio              : "I am a physicist and philosopher of physicis."
   location         : "Utrecht"
   employer         : "University of Utrecht"
   uri              : # URL
