@@ -1,10 +1,10 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Navidad, navid, Eneko huele mal"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Navidad, navid, Eneko huele mal
+
