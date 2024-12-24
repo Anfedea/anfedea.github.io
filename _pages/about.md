@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Im Antonio, and this is my webpage."
+title: "I´m Antonio, and this is my webpage."
 author_profile: true
 redirect_from: 
   - /about/
