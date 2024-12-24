@@ -11,10 +11,10 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Theoretical Physics, University of Valencia, 2021 
-* M.S. in Logic and Philosophy of Science , Nacional University UNED, 2019
-* M.S. in Advanced Physics, University of Valencia, 2016
-* Degree in Physics, University of Valencia, 2015
+* Ph.D in Theoretical Physics, University of Valencia (2021) 
+* M.S. in Logic and Philosophy of Science , Nacional University UNED (2019)
+* M.S. in Advanced Physics, University of Valencia (2016)
+* Degree in Physics, University of Valencia (2015)
 
 Work experience
 ======
