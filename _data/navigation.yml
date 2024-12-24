@@ -8,8 +8,8 @@ main:
   - title: "About me"
     url: /About me/
     
-  - title: "Publications"
-    url: /publications/  
+  - title: "My Research"
+    url: /My research/  
         
   - title: "Blog Posts"
     url: /year-archive/
