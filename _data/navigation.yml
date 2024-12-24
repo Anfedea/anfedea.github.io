@@ -7,16 +7,16 @@
 main:
   - title: "About me"
     url: /cv/
-    - title: "Research"
-    url: /reserach/      
+ - title: "Research"
+    url: /research/      
   #- title: "Publications and Talks"
-    url: /publications/
+  #  url: /publications/
 
-#  - title: "Talks"
-    url: /talks/    
+# - title: "Talks"
+  #  url: /talks/    
 
  # - title: "Teaching"
-    url: /teaching/    
+   # url: /teaching/    
     
  # - title: "Portfolio"
  #   url: /portfolio/
