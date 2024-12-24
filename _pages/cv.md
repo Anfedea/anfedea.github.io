@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "About me"
+permalink: /about me/
 author_profile: true
 redirect_from:
   - /resume
@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Theoretical Physics, University of Valencia, 2021 
+* M.S. in Logic and Philosophy of Science , Nacional University UNED, 2019
+* M.S. in Advanced Physics, University of Valencia, 2016
+* Degree in Physics, University of Valencia, 2015
 
 Work experience
 ======
