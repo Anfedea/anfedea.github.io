@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+(If you want to skip this reading go to my cv:paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+ )
+
 After graduating high school in my hometown Ourense (Spain), I moved to Valencia to start the Degree in Physics. During the first two courses, funny enough I mostly enjoyed the mathematical courses (alegbra and complex variable), and it was not until the third year during my erasmus stay at the University of Bonn (Germany) that I was atracted by pure physics courses: electrodynamics, general relativity, quantum mechanics and cosmology. When I cam back for my last year in Valencia, I wanted to a thesis related with Kaluza-Klein theories, but 
 
 Education
