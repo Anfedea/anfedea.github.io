@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: My Research
 title: "I´m Antonio, and this is my webpage."
 author_profile: true
 redirect_from: 
