@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-
+After graduating high school in my hometown Ourense (Spain), I moved to Valencia to start the Degree in Physics. During the first two courses, funny enough I mostly enjoyed the mathematical courses (alegbra and complex variable), and it was not until the third year during my erasmus stay at the University of Bonn (Germany) that I was atracted by pure physics courses: electrodynamics, general relativity, quantum mechanics and cosmology. When I cam back for my last year in Valencia, I wanted to a thesis related with Kaluza-Klein theories, but 
 
 Education
 ======
@@ -31,33 +31,6 @@ Postdoctoral Research contract with Dublin City University (Ireland).
 * 2017 - 2021: Postgraduate Researcher, Instituto de Física Corpuscular & CSIC (Spain).
 Supervisor:Prof. Jose Navarro-Salas; Project: Renormalization in curved spacetime
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+
