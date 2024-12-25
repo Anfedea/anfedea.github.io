@@ -1,6 +1,7 @@
 ---
-permalink: My Research
-title: "I´m Antonio, and this is my webpage."
+layout: archive
+title: "My Research"
+permalink: /My Research/
 author_profile: true
 redirect_from: 
   - /research/
