@@ -11,7 +11,20 @@ redirect_from:
 
 (If you want to skip this reading go to my: [CV](CV.pdf))
 
-After graduating high school in my hometown Ourense (Spain), I moved to Valencia to start the Degree in Physics. During the first two courses, funny enough I mostly enjoyed the mathematical courses (alegbra and complex variable), and it was not until the third year during my erasmus stay at the University of Bonn (Germany) that I was atracted by pure physics courses: electrodynamics, general relativity, quantum mechanics and cosmology. When I cam back for my last year in Valencia, I wanted to a thesis related with Kaluza-Klein theories, but 
+After graduating high school in my hometown Ourense (Spain), I moved to Valencia to start the Degree in Physics. During the first two courses, funny enough I mostly enjoyed the mathematical courses (alegbra and complex variable), and it was not until the third year during my erasmus stay at the University of Bonn (Germany) that I was atracted by pure physics courses: electrodynamics, general relativity, quantum mechanics and cosmology. When I came back for my last year in Valencia, I wanted to do a thesis related with Kaluza-Klein theories, and contacted Jose Navarro-Salas, profesor of the dpt. of theoretical physics, but he suggested an even more exciting degree thesis: to study the particle production effect in the early universe in form of gravitons, an effect that BICEPS claimed to have detected (although later corrected). 
+
+During that year and the following master degree, I started my rearch carrer in the field of Quantum Field Theory in curved spacetime (QFTcs), a framework where gravity is treated is a classical metric field as imposed by General Relativity, whereas matter are described as quantum fields satisfying the usual requirements of quantum field theory in flat spacetime. I chose this topic because it allowed me to study and understand different well-stablished fields of physics like cosmology and particle physics in a formal way. I defended my Phd. thesis on renormalization tecniques in quantum field theory in cosmological spacetimes in 2021. During that years, I was very lucky to be able to attend many schools around the world on different topics (cosmology, particle physics, mathematical methods, quantum gravity, etc.) and doing one research stay the University of Basel (another one being canceled due to COVID). 
+
+Parallel to my physics carreer, I did a Master degree in philosophy of science and logic. I can´t give a precise reason why I choose it. I wanted to study something more than physics and it seemed to be something that I could understand I enjoy with my physics background. As it turned out, I did indeed enjoy the Master and learned many aspects of philosophy of the sciences (physics, biologogy, sociology, etc) and even more general philosophical topics (phenomenology and existentialism)! My master thesis was dedicated to Phillip Kithcher and his understanding of scientific research programs in democratic societies.  After finishing it, I continued studying and learning about these topics, but didnt do proper research due to my full dedication to research in physics. 
+
+In 2021, I was awarded by the Goverment of Ireland of a Irish Research Council Postdoctoral fellowship. This allowed me to have my own research project at the Dublin City Universite on topics related with quantum fields in the early universe. In particular, I was interested in understanding how quantum effects take place during the inflationary and reheating phase of the universe, and wheter QFTcs could be able to describe the required mechanism to explain the observed data in the Cosmic Microwave Background. During that year, I was able to do a research stay at the University in Pavia where I also learned about algebraic quantum field theory, and the imprecise results obtained within the field. Together with some collegues, we organized a very successful online conference in QFTcs which was repeated (in person) the following two years in Granada and Lisbon. 
+
+The following academic year I moved to Nijmegen (Netherlands) as a Margarita Salas fellow at Radboud University. 
+
+
+
+
+
 
 Education
 ======
