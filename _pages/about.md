@@ -1,11 +1,14 @@
 ---
 permalink: /
-title: "I´m Antonio, and this is my webpage."
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+
+
 
 ![Alt text](bg.jpg)
 
