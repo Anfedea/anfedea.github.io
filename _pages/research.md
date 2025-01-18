@@ -7,8 +7,6 @@ redirect_from:
   - /research/
   - /research.html
 ---
-Foundations and Philosophy of Physics
-======
 
 
 The Space-Time/Matter in Gravitational Relativistic Field Theories
