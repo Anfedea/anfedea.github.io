@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* Section headers (smaller, distinct from main titles) */
+        .section-header {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 1.35rem;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #2c2c2c;
+        }
+    
+        /* Thin, subtle divider */
+        .section-divider {
+            border: none;
+            height: 1px;
+            background-color: #9a6161;
+            margin-top: 0.4rem;
+            margin-bottom: 1.5rem;
+        }
+    
+        /* Grey–blue background tones */
+        .bg-blue-3 {
+            background: linear-gradient(180deg, rgba(195, 114, 9, 0.469), rgba(195, 114, 9, 0.469));
+        }
+    
+        .bg-blue-2 {
+            background: linear-gradient(180deg, rgba(65, 132, 219, 0.398), rgba(65, 132, 219, 0.398));
+        }
+    
+        .bg-blue-1 {
+            background: linear-gradient(180deg, rgba(40,70,110,0.05), rgba(40,70,110,0.015));
+        }
+    
+        .text-justify {
+            text-align: justify;
+        }
+    </style>
+    <style>
+      .inline-bg {
+        display: inline-block;
+        padding: 1rem 1.5rem;
+        border-radius: 6px;
+        }
+
+        .research-block {
+            max-width: 100%;
+        } 
+
+    </style>
+    <style>
+        .navbar-brand {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: #f2f2f2;
+        }
+        /* Navbar buttons (right) */
+        .navbar-nav .nav-link {
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 0.9rem;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+
+            color: #ffffff;
+            padding: 0.5rem 0.75rem;
+            text-decoration: none;
+        }
+
+            /* Hover effect */
+        .navbar-nav .nav-link:hover {
+                color: #c8b9b9;
+        }
+
+            /* Active page */
+        .navbar-nav .nav-link.active {
+            font-weight: 600;
+            border-bottom: 2px solid #c8b9b9;
+        }
+      </style>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Antonio Ferreiro" />
+        <meta property="og:site_name" content="Antonio Ferreiro" />
+        <meta property="og:title" content="Antonio Ferreiro | My Research" />
+        <meta property="og:url" content="https://anfedea.github.io"  />
+        <meta property="og:type" content="website" />
+        
+        <script type="application/ld+json">
+            {
+              "@context": "http://schema.org",
+              "@type": "Person",
+              "name": "Antonio Ferreiro",
+              "url": "https://anfedea.github.io" 
+            }
+        </script>
+        <title>Antonio Ferreiro – My Research</title>
+        <!-- Favicon-->
+        <!--<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" /> -->
+        <link rel="icon" type="image/x-icon" href="img/banner.png" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Antonio Ferreiro</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cv.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">My Research</a></li>
+                        <li class="nav-item"><a class="nav-link" href="teaching.html">Teaching</a></li>
+                        <li class="nav-item"><a class="nav-link" href="outreach.html">¡Física para Todos!</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        <!-- </nav>
+                <div class="text-center pb-0 mb-0"> Image and text, one below the other: not side by side!!!
+                <div class="text-container pb-1 pt-2 mt-0" style="display: block; border-radius: 0">
+                    <h1 class="text-white fs-3 fw-bolder">Contact</h1>
+               <p class="text-white text-opacity-75 mb-0"><b>PhD Candidate at Universitat de València</b></p>
+                </div>
+            </div>-->
+        </nav>
+    </nav>
+    <div class="bg-image-full hero" style="background-image: url('img/background0.png');
+    height: 50px;"> <!-- Image and text, one below the other: not side by side!!!-->
+    </div>
+        <!-- Content section-->
+        <section class="py-0">
+            <div class="container my-4">
+                <!-- Section title with underline spanning the whole screen -->
+                <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <h2>Research interests</h2>
+                            <hr class="border-dark" style="border-width: 2px;"/>
+                        </div>
+                    <div class="col-lg-10 fs-5">
+                       <ul>
+                            <li class="text-justify"><b>Conceptual clarification and ontological commitments in physics</b>: What can our best modern theories of physics tell us about general concepts of matter, 
+                             space, time and causality? What are the best interpreations we can assign to the theories to align with their mathematical formalism and their
+                             practice by scientist? </li> 
+                        <li class="text-justify"><b>Philosophy of Cosmology:</b> What is the object of study of cosmology? How do theories, phenomenological models and data intersect to describe 
+                            the behaviour of the universe? What role does cosmology, and its different probes, play for the development of theoretical research programs (Quantum 
+                            Gravity, Beyond Stadard Model particles, etc.)?</li> 
+                        <li class="text-justify"><b>Epistemology of Quantum Experiment:</b> What do experiments involving quantum technologies tell us about theories, inter-theory relations, idealizations 
+                            and realist ontological commitments in physics and science in general? </li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container mb-2">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h2>Current research lines</h2>
+                    <hr class="border-dark" style="border-width: 2px;">
+                </div>
+            </div>
+        </div>
+            
+    
+        <!-- Another contect section, with background colour-->
+        <section class="pt-1 pb-4">
+            <div class="container mt-1 mb-4">
+                <div class="row justify-content-center">
+        
+                    <div class="col-lg-10">
+                        <div class="bg-blue-2 inline-bg research-block">
+        
+                            <!-- Title -->
+                            <h3 id="Spacetime-Matter" class="section-header text-center">
+                                The Spacetime-Matter dichotomy in Cosmology and Astrophysics
+                            </h3>
+                            <hr class="section-divider">
+        
+                            <!-- Content -->
+                            <div class="fs-5">
+        
+                                <!-- Floating figure -->
+                                <figure style="
+                                    float:right;
+                                    max-width:300px;
+                                    margin-left:1.5rem;
+                                    margin-right:1.5rem;
+                                    margin-top:0.5rem;
+                                    margin-bottom:0.5rem;
+                                ">
+                                    <img src="img/Spacetime.png" alt="spacetime" style="width:80%;">
+                                    <figcaption style="
+                                        font-size:0.85rem;
+                                        color:#666;
+                                        text-align:left;
+                                    ">
+                                        Minkowski geometry. Intuitive notion of spacetime. 
+                                    </figcaption>
+                                </figure>
+        
+                                <p class="text-justify">
+                                    We often rely on basic assumptions without noticing them.
+                                    One of the most deeply rooted ideas in physics and philosophy is that everything in the universe
+                                    falls into one of two categories: spacetime, which provides the stage, and matter, which occupies it.
+                                </p>
+        
+                                <p class="text-justify">
+                                    For a long time, this way of thinking worked well. Today, however, modern cosmology increasingly
+                                    challenges it. Current physical theories suggest that spacetime and matter cannot always be clearly
+                                    separated. 
+                                    Treating them as fundamentally different kinds of things may no longer reflect how the
+                                    universe actually works, and in some cases may even limit how we develop new theories.
+                                </p>
+                                <figure style="
+                                float:left;
+                                max-width:250px;
+                                margin-left:1.5rem;
+                                margin-right:1.5rem;
+                                margin-top:0.5rem;
+                                margin-bottom:0.5rem;
+                            ">
+                                <img src="img/Matter.svg" alt="Research activity" style="width:100%;">
+                                <figcaption style="
+                                    font-size:0.85rem;
+                                    color:#666;
+                                    text-align:center;
+                                ">
+                                    Photoelectric effect. Our intuitive notion of a matter. 
+                                </figcaption>
+                            </figure> 
+                                <p class="text-justify">
+                                    Exploring what happens when this distinction is relaxed opens up fresh perspectives.
+                                    It helps clarify which traditional philosophical debates still matter, which ones fade away,
+                                    and where new questions emerge in the philosophy of physics.
+
+                                    Rather than creating confusion, rethinking these basic concepts offers a clearer and more flexible
+                                    way to understand the universe.
+                                </p>
+                                <p class="text-justify">
+                                    Breaking the spacetime matter dichotomy presents a new avenues in our understanding of conventionalism, 
+                                    the interpretation of General Relativity and gravitational theoris more in general, and in inter-theory 
+                                    relations that goe beyond the classical theories. 
+                                </p>
+        
+        
+                                <!-- Clear float -->
+                                <div style="clear:both;"></div>
+        
+                                <p class="text-justify">
+                                    I am the leader of two case studies within the project:
+                                </p>
+        
+                                <ul>
+                                    <li class="text-justify">
+                                        <b>Inflation </b>: the space-time matter dichotomy breaks down in any theory that considers a scalar field 
+                                            theory for the inlationary phase of the universe. 
+                                        <a href="#paper1" class="btn btn-secondary btn-sm mx-1" role="button">Learn more</a>
+                                    </li>
+        
+                                    <li class="text-justify">
+                                        <b>Gravitational Waves</b>: the space-time matter dichotomy breaks down if we want to use quantum techonologies, e.g. 
+                                        a laser interferometer to detect gravitational waves.<a href="#paper2" class="btn btn-secondary btn-sm mx-1" role="button">Learn more</a>
+
+                                    </li>
+                                </ul>
+                                <p class="text-justify"> Futhermore, the criterion for something being matter has to be carefully analyzed 
+                                    in the context of quantum field theory. <a href="#paper3" class="btn btn-secondary btn-sm mx-1" role="button">Learn more</a>
+                                </p>
+        
+                            </div>
+        
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        
+        <!-- Another contect section, with background colour-->
+        <section class="pt-1 pb-4">
+            <div class="container mt-1 mb-4">
+                <div class="row justify-content-center">
+        
+                    <div class="col-lg-10">
+                        <div class="bg-blue-3 inline-bg research-block">
+        
+                            <!-- Title -->
+                            <h3 id="PhilCosmo" class="section-header text-center">
+                                Philosophy of Cosmology
+                            </h3>
+                            <hr class="section-divider">
+        
+                            <!-- Content -->
+                            <div class="fs-5">
+        
+                                <!-- Floating figure -->
+                                <figure style="
+                                    float:right;
+                                    max-width:400px;
+                                    margin-left:1.5rem;
+                                    margin-right:1.5rem;
+                                    margin-top:0.5rem;
+                                    margin-bottom:0.5rem;
+                                ">
+                                    <img src="img/cmb.png" alt="CMB" style="width:100%;">
+                                    <figcaption style="
+                                        font-size:0.85rem;
+                                        color:#666;
+                                        text-align:left;
+                                    ">
+                                        Cosmic Microwave Background, a perfect visualization of the convergence between data from several observatories (precision cosmology)
+                                        and the &Lambda;CDM model.  
+                                    </figcaption>
+                                </figure>
+        
+                                <p class="text-justify">
+                                    Modern, or precision, cosmology integrates, on the one hand, the theory of general relativity and various theories of matter 
+                                    (the Standard Model, thermodynamics, statistical mechanics, and fluid mechanics) adapted to an expanding spacetime, 
+                                    together with components whose origin remains uncertain (dark matter and dark energy), which converge in the &Lambda;CDM model. 
+                                </p>
+        
+                                <p class="text-justify"> 
+                                    On the other hand, it relies on a broad set of observations—cosmic microwave background radiation, the distribution of galaxies, 
+                                    and supernovae—which allow not only the confirmation of this model but also the precise determination of its free parameters.
+                                    Since its inception, cosmology has given rise to different philosophical interpretations. Whereas for twentieth-century particle 
+                                    physics it represented a new high-energy laboratory, from a more operationalist perspective—such as that proposed by Ian Hacking 
+                                    in his entity realism—it faces almost insurmountable difficulties in being placed on a par with well-established sciences such as Newtonian mechanics, thermodynamics, or quantum mechanics. The absence of possibilities for direct experimental intervention and its reliance on indirect observations place cosmology in a singular position within the physical sciences.
+                                    Moreover, cosmology requires the combination of multiple theories to explain the different elements of the LambdaCDM model. 
+                                    Thus, dark matter is described through fluid-dynamical models analogous to those of ordinary matter, while dark energy is 
+                                    introduced as an additional constant in general relativity. This plurality generates tensions for naïve scientific realism 
+                                    understood as a literal interpretation of theories, as well as for entity realism, given that there are no terrestrial experiments 
+                                    capable of reproducing the relevant physical conditions.
+                                </p>
+        
+                                <p class="text-justify"> 
+                                    The aim of the project is to examine these problems from different currents in the philosophy of science in order to shed 
+                                    light both on cosmology and on the philosophy of science more generally. In particular, both traditional interpretations of 
+                                    scientific realism and their structuralist variants will be considered, as well as pragmatist and materialist–pluralist 
+                                    alternatives. The central questions are: can cosmology be regarded as an independent science and, if so, which theories, 
+                                    instruments, and practices constitute it? Is it possible to sustain a realist thesis about its theories, entities, or 
+                                    structures?
+                                </p>
+        
+                                <p class="text-justify"> A good example is Inflation, with started as a hypothesis of a pre-Big Bang 
+                                    phase to explain the apparent homogeneity of the Large Scale Structure of the Universe.
+                                    Today it has become an important research program that intends to overlaps data and new theories, 
+                                    but that is hidnered by the absence of direct observation/experimentation and a full theoretical account.  
+                                    <a href="#paper4" class="btn btn-secondary btn-sm mx-1" role="button">Learn more</a>
+                                </p>
+        
+                            </div>
+        
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+                
+        <!-- Another contect section, with background colour-->
+        <section class="pt-1 pb-4">
+            <div class="container mt-1 mb-4">
+                <div class="row justify-content-center">
+        
+                    <div class="col-lg-10">
+                        <div class="bg-blue-1 inline-bg research-block">
+        
+                            <!-- Title -->
+                            <h3 id="PhilCosmo" class="section-header text-center">
+                                Epistemology and Ontology of Quantum Experiments 
+                            </h3>
+                            <hr class="section-divider">
+        
+                            <!-- Content -->
+                            <div class="fs-5">
+        
+                                <p class="text-justify">
+                                    In construction...
+                                </p>
+                            </div>
+        
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        <!-- Another contect section, with background colour-->
+        <section class="pt-1 pb-4">
+            <div class="container mt-1 mb-4">
+                <div class="row justify-content-center">
+        
+                    <div class="col-lg-10">
+                        <div class="bg-blue-1 inline-bg research-block">
+        
+                            <!-- Title -->
+                            <h3 id="PhilCosmo" class="section-header text-center">
+                                Quantum field theory in curved spacetime.  
+                            </h3>
+                            <hr class="section-divider">
+        
+                            <!-- Content -->
+                            <div class="fs-5">
+        
+                                <p class="text-justify">
+                                    In construction... Meanwhile check an overview of the historical origin of the field.  <a href="#paper5" class="btn btn-secondary btn-sm mx-1" role="button">Learn more</a>
+ 
+                                </p>
+                            </div>
+        
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        <!-- Image element - set the background image for the header in the line below-->
+        <!--<div class="py-5 bg-image-full" style="background-image: url('img/composite_trim.png')">
+            <div style="height: 10rem"></div>
+        </div> -->
+
+                <!-- Section title with underline spanning the whole screen -->
+        
+    <div class="row justify-content-center">
+
+        <div class="container mb-2">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h2>Research outcomes</h2>
+                    <hr class="border-dark" style="border-width: 2px;">
+                </div>
+            </div>
+        </div>       
+        
+        <section class="py-4 bg-light bg-opacity-10">
+            <div class="container my-0">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <h3 id="paper1" class="section-header">
+                            Deflating the spacetime-matter dichotomy
+                        </h3>                        <h5 class="text-muted mb-0"> <b>Antonio Ferreiro</b>, Alex Fleuren & Niels Martens. Submitted.</h5>
+                        <a class="link-secondary mb-0 d-inline-block"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://philsci-archive.pitt.edu/27866/">
+                         Preprint.
+                     </a>                       <hr class="border-dark mt-2" style="border-width: 2px;"/>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="row justify-content-left mb-0 fs-5 align-items-center "> <!-- ITEM -->
+                            <div class="col-lg-8">
+                                <p class="text-justify">
+                                    In this paper we analyse scalar-tensor theories-specific instances of which include 
+                                    mainstream inflation and dark energy models-in light of the spacetime-matter dichotomy. 
+                                    We argue that it is difficult to categorise the scalar fields as either a pure aspect of the 
+                                    spacetime structure or a pure form of matter, by focusing on the Jordan vs Einstein frames of 
+                                    these theories. We present and evaluate various interpretational options available, concluding that 
+                                    the spacetime-matter dichotomy becomes untenable in this context. At the same time, the ontological 
+                                    and conceptual category of spacetime can be decoupled from that of gravity, 
+                                    with the latter remaining viable in the context of scalar-tensor theories.                                </p>
+                            </div>
+                            <div class="col-lg-4">
+                                <img loading="lazy" class="img-fluid mb-4" src="img/Frame.png" alt="frame" style="width:100%;"/>
+                                <figcaption style="
+                                font-size:0.85rem;
+                                color:#666;
+                                text-align:left;
+                            ">
+                                Clasification of the scalar field of the Scalar-Tensor theories as Spacetime, 
+                                Matter and Gravity for the different frames/representations.
+                            </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-4 bg-light bg-opacity-10">
+            <div class="container my-0">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+        
+                        <!-- Title and metadata -->
+                        <h3 id="paper4" class="section-header">
+                            Another critical look at inflationary cosmology
+                        </h3>              
+        
+                        <h5 class="text-muted mb-1">
+                            <b>Antonio Ferreiro</b> &amp; Alex Fleuren. In progress.
+                        </h5>
+        
+                        <!-- <a class="link-secondary mb-0 d-inline-block"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           href="https://philsci-archive.pitt.edu/27866/">
+                            Preprint.
+                        </a>-->
+        
+                        <hr class="border-dark mt-2 mb-3" style="border-width: 2px;"/>
+        
+                        <!-- Paper description -->
+                        <p class="mt-3">
+                            In this paper, we  undertake a critical analysis of the research program of inflationary cosmology (Inflation), 
+                            with particular emphasis on the epistemological transformations of the past twenty-five years. Our discussion is 
+                            structured around three central aspects. First, the modeling of Inflation, although mathematically consistent, relies 
+                            on physical assumptions that given the current evidence are not fully grounded. Second, the physics of inflation is not 
+                            required for the &Lambda;CDM model, at least not in the same way as recombination physics, dark energy or dark matter. 
+                            Third, on this basis, we argue that inflation cannot, in its present formulation, be regarded as an autonomous dynamical 
+                            theory. Nonetheless, it provides a number of significant features that serve as exploratory tools for linking novel theoretical
+                             frameworks—for instance, string theory—with cosmological observations.
+                        </p>
+        
+                        <!-- Videos -->
+                        <div class="row mt-4 g-4">
+        
+                            <div class="col-md-6">
+                                <div class="ratio ratio-16x9">
+                                    <iframe
+                                        src="https://www.youtube.com/watch?v=VwfeLkASI3c"
+                                        title="YouTube video player"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+        
+                            <div class="col-md-6">
+                                <div class="ratio ratio-16x9">
+                                    <iframe
+                                        src="https://www.youtube.com/embed/YoWu6MF1YTA?start=3210"
+                                        title="YouTube video player (starts at 53:30)"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+        
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </section>
+        <section class="py-4 bg-light bg-opacity-10">
+            <div class="container my-0">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+        
+                        <!-- Title and metadata -->
+                        <h3 id="paper5" class="section-header">
+                            The Birth of Gravitational Particle Creation: the Enduring Legacy of Leonard Parker's 1966 Thesis
+                        </h3>              
+        
+                        <h5 class="text-muted mb-1">
+                            <b>Antonio Ferreiro</b>,Jose Navarro Salas &amp; Silvia Pla. Accepted for publication.
+                        </h5>
+        
+                        <a class="link-secondary mb-0 d-inline-block"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           href="https://philarchive.org/rec/FERTBO-6">
+                            Preprint.
+                        </a>
+        
+                        <hr class="border-dark mt-2 mb-3" style="border-width: 2px;"/>
+        
+                        <!-- Paper description -->
+                        <p class="mt-3">
+                            This paper offers a historical overview of the origins and enduring significance of gravitational 
+                            particle creation, a groundbreaking discovery first formulated in Leonard Parker's 1966 doctoral thesis 
+                            at Harvard University. By tracing the context in which Parker developed this idea and examining its 
+                            subsequent influence, the paper highlights how the concept of gravitational particle creation advanced 
+                            the study of quantum field theory in curved spacetime and profoundly shaped modern cosmology, as well 
+                            as the quantum theory of black holes.
+                        </p>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Antonio Ferreiro, 2025</p></div>
+            <div class="container"><p class="m-0 text-center text-white" style="font-size: .75rem;">Template by <a class="link-secondary" href="https://startbootstrap.com/template/full-width-pics">Start Bootstrap</a></p></div>
+            
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
