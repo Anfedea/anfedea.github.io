@@ -6,6 +6,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
+    .section-header {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 1.35rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #2c2c2c;
+    }
+
+    /* Thin, subtle divider */
+    .section-divider {
+        border: none;
+        height: 1px;
+        background-color: #9a6161;
+        margin-top: 0.4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Grey–blue background tones */
+    .bg-blue-3 {
+        background: linear-gradient(180deg, rgba(195, 114, 9, 0.469), rgba(195, 114, 9, 0.469));
+    }
+
+    .bg-blue-2 {
+        background: linear-gradient(180deg, rgba(65, 132, 219, 0.398), rgba(65, 132, 219, 0.398));
+    }
+
+    .bg-blue-1 {
+        background: linear-gradient(180deg, rgba(40,70,110,0.05), rgba(40,70,110,0.015));
+    }
+
+    .text-justify {
+        text-align: justify;
+    }
+</style>
+<style>
+  .inline-bg {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    }
+
+    .research-block {
+        max-width: 100%;
+    } 
+
+</style>
+    <style>
         .navbar-brand {
             font-family: 'Montserrat', sans-serif;
             font-weight: 600;
@@ -89,28 +137,27 @@
         height: 50px;"> <!-- Image and text, one below the other: not side by side!!!-->
         </div>
         <!-- Content section-->
-      
-        <section class="py-0">
+        <div class="row justify-content-center">
+
             <div class="container mb-2">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
-                        <h2>Up-to-date teaching material</h2>
+                        <h2>Teaching material (up-to-date)</h2>
                         <hr class="border-dark" style="border-width: 2px;">
                     </div>
                 </div>
             </div>     
-        </section>
         <section class="py-4 bg-light bg-opacity-10">
             <div class="container my-0">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
-                            <h3 id="QFTGRAV" class="section-header text-center">
+                            <h3 id="QFTGRAV" class="section-header">
                                 Quantum Field Theory and Gravity 
                             </h3>
                             <h5 class="text-muted mb-1">
                                 Part of the Course History Philosophy of Quantum Field Theory (Master Level)
                             </h5>
-                            <hr class="border-dark" style="border-width: 2px;"/>
+                            <hr style="border: 2px solid #c8b9b9;">
                         </div>
                         <div class="col-lg-10 fs-5">
                             <p class="text-justify">Three-hour lecture, content: </p>
@@ -134,7 +181,7 @@
                             <h5 class="text-muted mb-1">
                                 Part of the I São Paulo School on Gravitational Physics.
                             </h5>
-                            <hr class="border-dark" style="border-width: 2px;"/>
+                            <hr style="border: 2px solid #c8b9b9;">
                         </div>
                         <div class="col-lg-10 fs-5">
                             <p class="text-justify">Six-hour course, Content: </p>
