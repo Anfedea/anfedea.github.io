@@ -1,6 +1,6 @@
 const text1 = " Hi there! ";
 const text2Green = "News! ";
-const text2Normal = "As of September 2023, I have started a new position at Utrecht University  as a postdoc in the ERC-founded group COSMO-MASTER of  Niels Martens. ";
+const text2Normal = "Next 22nd of April the UPAC group organises the COSMO-MASTER Workshop on Spin 2 Gravity, check our webpage for more info! ";
 const consoleElement = document.getElementById("console");
 let i = 0; // Counter for the first line
 let j = 0; // Counter for the green part of the second line
